@@ -10,7 +10,7 @@ const WelcomeSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center max-w-4xl mx-auto"
+          className="text-center max-w-[640px] mx-auto"
         >
           <h2 className="text-4xl md:text-5xl text-burgundy mb-4 font-light">
             Glad to have you home
@@ -35,8 +35,7 @@ const WelcomeSection = () => {
             >
               alumni@sbs-school.org
             </a>
-            . Thank you for your continued support, and we look forward to staying
-            connected.
+            .
           </p>
         </motion.div>
       </div>
