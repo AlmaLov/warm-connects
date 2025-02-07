@@ -35,7 +35,8 @@ const WelcomeSection = () => {
             >
               alumni@sbs-school.org
             </a>
-            .
+            . Thank you for your continued support, and we look forward to staying
+            connected.
           </p>
         </motion.div>
       </div>
