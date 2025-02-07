@@ -36,8 +36,8 @@ const MapSection = () => {
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/light-v11',
-      center: [85, 23],
-      zoom: 4,
+      center: [78.9629, 20.5937], // Centered on India
+      zoom: 4.5, // Adjusted zoom level for better India view
       projection: 'mercator'
     });
 
@@ -60,6 +60,12 @@ const MapSection = () => {
         .setLngLat(location.coordinates)
         .addTo(map.current);
     });
+
+    // Set bounds to India's geographical boundaries
+    map.current.setMaxBounds([
+      [68.1766, 6.7499], // Southwest coordinates
+      [97.4025, 35.6745] // Northeast coordinates
+    ]);
 
     return () => {
       map.current?.remove();
