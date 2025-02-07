@@ -3,26 +3,26 @@ import { motion } from "framer-motion";
 
 const images = [
   {
-    src: "/lovable-uploads/bcb7c699-7ee5-432a-93c4-d485974d8b54.png",
-    alt: "Student learning experience",
+    src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    alt: "Students in classroom",
   },
   {
-    src: "/lovable-uploads/3ccd8266-39d6-4245-afa5-37125563aca7.png",
-    alt: "Students collaborating",
+    src: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81",
+    alt: "Alumni event",
   },
   {
-    src: "/lovable-uploads/bcb7c699-7ee5-432a-93c4-d485974d8b54.png",
-    alt: "Campus activities",
+    src: "https://images.unsplash.com/photo-1473091534298-04dcbce3278c",
+    alt: "Campus life",
   },
   {
-    src: "/lovable-uploads/3ccd8266-39d6-4245-afa5-37125563aca7.png",
-    alt: "Student engagement",
+    src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    alt: "Student activities",
   },
 ];
 
 const ImageGrid = () => {
   return (
-    <section className="py-16 relative z-10" style={{ marginTop: "1578px" }}>
+    <section className="py-16 relative z-10">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {images.map((image, index) => (
