@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import WelcomeSection from "@/components/WelcomeSection";
 import PrincipalMessage from "@/components/PrincipalMessage";
 import NetworkSection from "@/components/NetworkSection";
+import MapSection from "@/components/MapSection";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
         <WelcomeSection />
         <PrincipalMessage />
         <NetworkSection />
+        <MapSection />
       </main>
     </div>
   );
