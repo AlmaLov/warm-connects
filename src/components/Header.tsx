@@ -13,8 +13,9 @@ const Header = () => {
           />
         </div>
         <Button
-          className="bg-peach hover:bg-peach-light text-white transition-colors duration-300 py-6"
+          className="w-[156px] h-[48px] rounded-none bg-[#EE5023] hover:bg-[#EE5023]/90 text-white transition-colors duration-300"
           variant="ghost"
+          style={{ position: 'relative', top: '54px', left: '0' }}
         >
           Login/Sign up
         </Button>
