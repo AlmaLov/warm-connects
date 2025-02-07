@@ -20,16 +20,33 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
           className="max-w-3xl"
         >
-          <h2 className="text-4xl md:text-5xl text-white font-light mb-2 animate-fade-in">
+          <h2 
+            className="text-white mb-2 animate-fade-in"
+            style={{
+              fontSize: '64px',
+              fontWeight: '400',
+              lineHeight: '56px',
+              textAlign: 'center',
+              textUnderlinePosition: 'from-font',
+              textDecorationSkipInk: 'none'
+            }}
+          >
             Welcome to
           </h2>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl text-white font-bold mb-8 animate-fade-in">
+          <h1 
+            className="text-white mb-8 animate-fade-in"
+            style={{
+              fontSize: '96px',
+              fontWeight: '700',
+              lineHeight: '84px',
+              letterSpacing: '-2px',
+              textAlign: 'left',
+              textUnderlinePosition: 'from-font',
+              textDecorationSkipInk: 'none'
+            }}
+          >
             SBSAlum
           </h1>
-          <p className="text-xl text-white/90 max-w-xl animate-fade-in">
-            Where memories meet the future, and every alumnus story adds to our
-            legacy.
-          </p>
         </motion.div>
       </div>
 
