@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="absolute top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-        <div className="w-24 h-24">
+        <div className="w-[174px] h-[156px]" style={{ position: 'relative', top: '50px', left: '79px' }}>
           <img
             src="/lovable-uploads/bcb7c699-7ee5-432a-93c4-d485974d8b54.png"
             alt="Step By Step School"
