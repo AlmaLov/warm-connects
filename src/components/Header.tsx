@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <header className="absolute top-0 left-0 right-0 z-50">
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-        <div className="w-16 h-16 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center">
+        <div className="w-24 h-24">
           <img
-            src="/placeholder.svg"
+            src="/lovable-uploads/bcb7c699-7ee5-432a-93c4-d485974d8b54.png"
             alt="Step By Step School"
-            className="w-12 h-12"
+            className="w-full h-full object-contain"
           />
         </div>
         <Button
