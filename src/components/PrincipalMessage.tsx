@@ -25,8 +25,8 @@ const PrincipalMessage = () => {
                 className="aspect-square rounded-lg overflow-hidden shadow-lg"
               >
                 <img
-                  src="/placeholder.svg"
-                  alt="Dr. Mahesh Prasad"
+                  src="/lovable-uploads/f332db90-32f1-4dc2-8eaf-d78eb9326cd2.png"
+                  alt="Portrait of Dr. Mahesh Prasad"
                   className="w-full h-full object-cover"
                 />
               </motion.div>
