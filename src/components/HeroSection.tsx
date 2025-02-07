@@ -23,12 +23,16 @@ const HeroSection = () => {
           <h2 
             className="text-white mb-2 animate-fade-in"
             style={{
+              fontFamily: 'Sun Valley - Demo',
               fontSize: '64px',
               fontWeight: '400',
               lineHeight: '56px',
               textAlign: 'center',
               textUnderlinePosition: 'from-font',
-              textDecorationSkipInk: 'none'
+              textDecorationSkipInk: 'none',
+              position: 'relative',
+              left: '79px',
+              top: '469px'
             }}
           >
             Welcome to
