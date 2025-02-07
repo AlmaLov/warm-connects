@@ -14,7 +14,7 @@ const ImageGrid = () => {
             className="relative aspect-[4/3] overflow-hidden rounded-lg"
           >
             <img
-              src="/lovable-uploads/3ccd8266-39d6-4245-afa5-37125563aca7.png"
+              src="/lovable-uploads/f8535f7e-c4ec-4149-9736-469e30cd13ba.png"
               alt="Student learning experience"
               className="w-full h-full object-cover"
             />
@@ -27,7 +27,7 @@ const ImageGrid = () => {
             className="relative aspect-[4/3] overflow-hidden rounded-lg"
           >
             <img
-              src="/lovable-uploads/bcb7c699-7ee5-432a-93c4-d485974d8b54.png"
+              src="/lovable-uploads/f8535f7e-c4ec-4149-9736-469e30cd13ba.png"
               alt="Student activities"
               className="w-full h-full object-cover object-center"
             />
@@ -40,7 +40,7 @@ const ImageGrid = () => {
             className="relative aspect-[4/3] overflow-hidden rounded-lg"
           >
             <img
-              src="/lovable-uploads/3ccd8266-39d6-4245-afa5-37125563aca7.png"
+              src="/lovable-uploads/f8535f7e-c4ec-4149-9736-469e30cd13ba.png"
               alt="Academic excellence"
               className="w-full h-full object-cover object-right"
             />
@@ -53,7 +53,7 @@ const ImageGrid = () => {
             className="relative aspect-[4/3] overflow-hidden rounded-lg"
           >
             <img
-              src="/lovable-uploads/bcb7c699-7ee5-432a-93c4-d485974d8b54.png"
+              src="/lovable-uploads/f8535f7e-c4ec-4149-9736-469e30cd13ba.png"
               alt="School life"
               className="w-full h-full object-cover object-left"
             />
