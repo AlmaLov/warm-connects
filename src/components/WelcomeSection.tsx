@@ -22,10 +22,13 @@ const WelcomeSection = () => {
             Step into the virtual home of SBS global community—a space where our
             school's spirit thrives beyond the classroom walls. Reconnect with
             classmates, discover opportunities, and stay up-to-date on the latest
-            happenings. We are thrilled to welcome you back and invite you to stay
-            connected with your alma mater. We value your involvement and would
-            love to hear from you. For any questions or ideas, please reach out to
-            our alumni office at{" "}
+            happenings.
+          </p>
+          <p className="text-gray-700 text-lg leading-relaxed mb-8">
+            We are thrilled to welcome you back and invite you to stay connected
+            with your alma mater. We value your involvement and would love to hear
+            from you. For any questions or ideas, please reach out to our alumni
+            office at{" "}
             <a
               href="mailto:alumni@sbs-school.org"
               className="text-burgundy hover:text-burgundy-light transition-colors underline"
