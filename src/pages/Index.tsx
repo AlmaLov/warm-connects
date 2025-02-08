@@ -6,6 +6,7 @@ import PrincipalMessage from "@/components/PrincipalMessage";
 import NetworkSection from "@/components/NetworkSection";
 import MapSection from "@/components/MapSection";
 import EventsAndAnnouncements from "@/components/EventsAndAnnouncements";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
         <MapSection />
         <EventsAndAnnouncements />
       </main>
+      <Footer />
     </div>
   );
 };
