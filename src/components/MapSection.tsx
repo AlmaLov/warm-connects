@@ -24,7 +24,7 @@ const MapSection = () => {
         }}
       >
         {/* Gradient Overlay */}
-        <div className="absolute inset-0" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#2E1A1B] to-transparent" />
       </div>
 
       {/* Content Container */}
