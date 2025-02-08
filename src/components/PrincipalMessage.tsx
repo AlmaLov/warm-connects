@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const PrincipalMessage = () => {
   return (
-    <section className="bg-cream py-20">
+    <section className="bg-[#FFFEF3] py-20">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
