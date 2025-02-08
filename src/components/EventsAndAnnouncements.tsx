@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 
@@ -124,20 +123,20 @@ const EventsAndAnnouncements = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Announcements Section */}
           <div className="bg-white rounded-lg p-8 shadow-md">
-            <h2 className="text-2xl font-bold mb-6 pb-2 border-b-2 border-[#C93329]">
-              Announcements
+            <h2 className="text-2xl font-bold font-serif mb-6 pb-2 border-b-2 border-[#C93329]">
+              ANNOUNCEMENTS
             </h2>
             <div className="space-y-6">
               {announcements.map((announcement, index) => (
                 <div key={index} className="space-y-2">
-                  <p className="text-gray-600 italic text-sm">{announcement.date}</p>
-                  <h3 className="font-bold">
+                  <p className="text-[#5A5A5A] italic text-sm">{announcement.date}</p>
+                  <h3 className="font-bold font-serif text-base">
                     {announcement.title}
-                    <a href="#" className="text-[#1A73E8] ml-2 hover:underline">
+                    <a href="#" className="text-[#1A73E8] ml-2 font-sans hover:underline">
                       Read more
                     </a>
                   </h3>
-                  <p className="text-gray-700">{announcement.excerpt}</p>
+                  <p className="text-[#5A5A5A] text-sm font-sans">{announcement.excerpt}</p>
                 </div>
               ))}
             </div>
