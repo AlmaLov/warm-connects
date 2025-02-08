@@ -24,7 +24,7 @@ const Footer = () => {
             {/* Logo and Tagline */}
             <div className="max-w-[300px]">
               <img 
-                src="/lovable-uploads/b82da6d6-79b7-4d6a-9a82-704f49d081fb.png" 
+                src="/lovable-uploads/fbc0653e-edfe-4c0c-952d-3e7baeab3401.png" 
                 alt="Step By Step School Logo" 
                 className="w-full"
               />
