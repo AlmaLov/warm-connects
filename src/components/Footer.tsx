@@ -77,17 +77,12 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Map */}
+            {/* Static Map Image */}
             <div className="w-full max-w-[250px] h-[250px] overflow-hidden rounded-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.6766799866397!2d77.49399731507862!3d28.46894198248047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc1d0b93c6a87%3A0x9c126e8c8ab63882!2sStep%20By%20Step%20School!5e0!3m2!1sen!2sin!4v1624956433123!5m2!1sen!2sin"
-                width="250"
-                height="250"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="School Location"
+              <img
+                src="/lovable-uploads/d92692da-a868-46e1-8de9-bf74f7429c81.png"
+                alt="School Location Map"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
