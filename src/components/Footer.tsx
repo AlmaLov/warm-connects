@@ -83,15 +83,6 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-
-            {/* School Image */}
-            <div className="mt-8">
-              <img 
-                src="/lovable-uploads/2d5a0107-a133-48fa-bbae-06adf2964c2e.png"
-                alt="Step By Step School Location"
-                className="w-[300px] h-[300px] object-cover rounded-lg"
-              />
-            </div>
           </div>
         </div>
       </div>
