@@ -18,12 +18,14 @@ const MapSection = () => {
     <section className="relative w-full min-h-screen overflow-hidden">
       {/* Background Map */}
       <div 
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0"
         style={{ 
-          backgroundImage: `url('/lovable-uploads/a8499a6d-86d5-4281-a84b-d3273dbea549.png')`,
-          backgroundSize: 'cover',
+          backgroundImage: `url('/lovable-uploads/019d695c-467c-4caa-8f2e-7dc16ff79f01.png')`,
+          backgroundSize: '100% 100%',
           backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
+          backgroundRepeat: 'no-repeat',
+          width: '100%',
+          height: '100%'
         }}
       />
 
