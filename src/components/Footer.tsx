@@ -84,38 +84,13 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Google Map Section */}
+            {/* School Image */}
             <div className="mt-8">
-              <div className="w-[300px] h-[300px] relative bg-gray-100 rounded-lg overflow-hidden">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.676414770624!2d77.41565631507847!3d28.463714982486906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc1b6f36a8a33%3A0x55581c95a44973d6!2sSTEP%20BY%20STEP%20SCHOOL!5e0!3m2!1sen!2sin!4v1647338762806!5m2!1sen!2sin"
-                  width="300"
-                  height="300"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Step By Step School Location"
-                />
-                
-                {/* Reviews Overlay */}
-                <div className="absolute top-2 left-2 bg-white px-3 py-1 rounded-full shadow-md flex items-center space-x-1">
-                  <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                  <span className="text-sm font-medium">4.0</span>
-                  <span className="text-sm text-gray-600">| 253 reviews</span>
-                </div>
-
-                {/* View Larger Map Link */}
-                <a
-                  href="https://goo.gl/maps/XYZ"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="absolute bottom-2 left-2 bg-white px-3 py-1 rounded-full shadow-md flex items-center space-x-1 text-sm hover:bg-gray-50 transition-colors"
-                >
-                  <ExternalLink className="w-4 h-4" />
-                  <span>View larger map</span>
-                </a>
-              </div>
+              <img 
+                src="/lovable-uploads/2d5a0107-a133-48fa-bbae-06adf2964c2e.png"
+                alt="Step By Step School Location"
+                className="w-[300px] h-[300px] object-cover rounded-lg"
+              />
             </div>
           </div>
         </div>
