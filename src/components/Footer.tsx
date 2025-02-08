@@ -64,9 +64,9 @@ const Footer = () => {
           <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-black -mx-6" />
 
           {/* Right Column */}
-          <div className="space-y-8">
+          <div className="space-y-8 md:flex">
             {/* Quick Links */}
-            <div>
+            <div className="flex-1">
               <h3 className="font-serif font-bold text-lg text-[#9F021D] mb-6">
                 QUICK LINKS
               </h3>
@@ -82,6 +82,15 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
+            </div>
+
+            {/* Map Image */}
+            <div className="flex-shrink-0">
+              <img 
+                src="/lovable-uploads/636449e9-d61f-43c9-a503-5564d339092b.png"
+                alt="Step By Step School Location Map"
+                className="w-[465.33px] h-[366.67px] object-cover"
+              />
             </div>
           </div>
         </div>
