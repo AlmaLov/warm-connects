@@ -2,6 +2,7 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import WelcomeSection from "@/components/WelcomeSection";
+import KidsImageSection from "@/components/KidsImageSection";
 import PrincipalMessage from "@/components/PrincipalMessage";
 import NetworkSection from "@/components/NetworkSection";
 import MapSection from "@/components/MapSection";
@@ -15,6 +16,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <WelcomeSection />
+        <KidsImageSection />
         <PrincipalMessage />
         <NetworkSection />
         <MapSection />
