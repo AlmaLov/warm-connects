@@ -6,14 +6,14 @@ const profileImages = Array(7).fill("/placeholder.svg");
 
 const NetworkSection = () => {
   return (
-    <section className="py-20">
+    <section className="py-10 bg-[#FFFEF3]">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="max-w-2xl mx-auto bg-white rounded-2xl shadow-lg p-8"
+          className="max-w-2xl mx-auto p-8"
         >
           <div className="flex justify-center -space-x-4 mb-8">
             {profileImages.map((src, index) => (
