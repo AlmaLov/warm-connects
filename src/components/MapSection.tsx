@@ -16,16 +16,13 @@ const MapSection = () => {
 
   return (
     <section className="relative w-full min-h-screen overflow-hidden">
-      {/* Background Map with Gradient Overlay */}
+      {/* Background Map */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{ 
           backgroundImage: `url('/lovable-uploads/9d26d9b6-7835-4b76-ab35-16f96ef710ec.png')`
         }}
-      >
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#2E1A1B] to-transparent" />
-      </div>
+      />
 
       {/* Content Container */}
       <div className="relative z-10 container mx-auto px-4 py-16">
