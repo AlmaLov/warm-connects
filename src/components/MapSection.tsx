@@ -18,26 +18,36 @@ const MapSection = () => {
     <section className="relative w-full min-h-screen overflow-hidden">
       {/* Background Map */}
       <div 
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0"
         style={{ 
-          backgroundImage: `url('/lovable-uploads/a8499a6d-86d5-4281-a84b-d3273dbea549.png')`,
+          backgroundImage: `url('/lovable-uploads/b213f8f6-3fa6-492e-94b8-766629f673b4.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
+          backgroundRepeat: 'no-repeat',
+          width: '100%',
+          height: '100vh'
+        }}
+      />
+
+      {/* Overlay gradient */}
+      <div 
+        className="absolute inset-0"
+        style={{
+          background: 'linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%)'
         }}
       />
 
       {/* Content Container */}
       <div className="relative z-10 container mx-auto px-4 py-16">
-        <div className="max-w-2xl">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">
+        <div className="max-w-xl">
+          <h2 className="text-5xl font-serif font-bold text-white mb-4 leading-tight">
             SBS Alumni on Global Map
           </h2>
-          <p className="text-lg md:text-xl text-white mb-8 font-light">
+          <p className="text-xl text-white mb-8 font-light">
             Connect with your alumni today!
           </p>
           <Button 
-            className="bg-[#C93329] hover:bg-[#A62822] text-white font-bold px-8 py-6"
+            className="bg-[#C93329] hover:bg-[#A62822] text-white font-medium px-8 py-3 text-lg rounded-md"
           >
             Sign in now
           </Button>
@@ -47,16 +57,18 @@ const MapSection = () => {
       {/* Map Markers */}
       {markers.map((marker, index) => {
         const sizeClasses = {
-          'large': 'w-24 h-24 text-2xl',
-          'medium': 'w-20 h-20 text-xl',
-          'small': 'w-16 h-16 text-lg',
-          'x-small': 'w-12 h-12 text-base'
+          'large': 'w-32 h-32 text-3xl',
+          'medium': 'w-24 h-24 text-2xl',
+          'small': 'w-20 h-20 text-xl',
+          'x-small': 'w-16 h-16 text-base'
         }[marker.size];
+
+        const bgColor = marker.size === 'x-small' ? 'bg-white text-[#C93329]' : 'bg-[#C93329] text-white';
 
         return (
           <div
             key={index}
-            className={`absolute ${sizeClasses} bg-[#C93329] rounded-full flex items-center justify-center text-white font-bold shadow-lg transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110`}
+            className={`absolute ${sizeClasses} ${bgColor} rounded-full flex items-center justify-center font-bold shadow-lg transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 hover:scale-110`}
             style={{
               top: marker.top,
               left: marker.left
