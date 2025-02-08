@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 
@@ -179,32 +180,44 @@ const EventsAndAnnouncements = () => {
           {/* Upcoming Events Section */}
           <div className="bg-white rounded-lg p-8 shadow-md">
             <div className="flex justify-between items-center mb-6">
-              <h2 className="text-2xl font-bold pb-2 border-b-2 border-[#C93329]">
-                Upcoming Alum Events
-              </h2>
-              <Button variant="link" className="text-[#C93329]">
+              <div>
+                <h2 className="text-2xl font-bold font-serif pb-2">
+                  UPCOMING ALUM EVENTS
+                </h2>
+                <div className="h-1 w-12 bg-[#C93329] mt-1"></div>
+              </div>
+              <Button variant="link" className="text-[#C93329] font-serif">
                 View all
               </Button>
             </div>
             <div className="space-y-8">
               {upcomingEvents.map((event, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-sm p-4">
-                  <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0">
-                      <div className="bg-[#C93329] text-white rounded-lg p-2 text-center w-16">
-                        <div className="text-sm">{event.month}</div>
-                        <div className="text-xl font-bold">{event.day}</div>
+                <div key={index} className="bg-white rounded-lg overflow-hidden shadow-sm">
+                  <div className="relative">
+                    <img 
+                      src={event.imageUrl} 
+                      alt={event.title}
+                      className="w-full h-48 object-cover"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <div className="flex items-start gap-4">
+                      <div className="flex-shrink-0">
+                        <div className="border border-[#C93329] text-[#C93329] rounded p-2 text-center min-w-[60px]">
+                          <div className="text-sm">{event.month}</div>
+                          <div className="text-2xl font-bold">{event.day}</div>
+                        </div>
                       </div>
-                    </div>
-                    <div className="flex-grow">
-                      <h3 className="font-bold text-lg">{event.title}</h3>
-                      <p className="text-gray-600 italic">{event.date}</p>
-                      <p className="text-gray-700">{event.organizer} / {event.email}</p>
-                      <Button
-                        className="mt-4 bg-[#C93329] hover:bg-[#A62822]"
-                      >
-                        Register
-                      </Button>
+                      <div className="flex-grow">
+                        <h3 className="text-xl font-bold font-serif mb-2">{event.title}</h3>
+                        <p className="text-gray-600 italic mb-2">{event.date}</p>
+                        <p className="text-gray-700 mb-4">{event.organizer} / {event.email}</p>
+                        <Button
+                          className="bg-[#87E3D9] text-black hover:bg-[#87E3D9]/90 font-normal"
+                        >
+                          Register
+                        </Button>
+                      </div>
                     </div>
                   </div>
                 </div>
