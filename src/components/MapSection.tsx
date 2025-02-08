@@ -20,7 +20,7 @@ const MapSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: `url('/lovable-uploads/9e2e6bbd-0b7f-43e8-9843-5995c15c345b.png')`
+          backgroundImage: `url('/lovable-uploads/9d26d9b6-7835-4b76-ab35-16f96ef710ec.png')`
         }}
       >
         {/* Gradient Overlay */}
