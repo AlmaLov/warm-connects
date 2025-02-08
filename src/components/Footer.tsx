@@ -24,11 +24,11 @@ const Footer = () => {
             {/* Logo and Tagline */}
             <div className="max-w-[300px]">
               <img 
-                src="/lovable-uploads/f332db90-32f1-4dc2-8eaf-d78eb9326cd2.png" 
-                alt="School Logo" 
+                src="/lovable-uploads/b82da6d6-79b7-4d6a-9a82-704f49d081fb.png" 
+                alt="Step By Step School Logo" 
                 className="w-full"
               />
-              <p className="text-white text-center mt-2 font-serif">Enlighten Our Minds</p>
+              <p className="text-[#9F021D] text-center mt-2 font-serif">Enlighten Our Minds</p>
             </div>
 
             {/* Address */}
