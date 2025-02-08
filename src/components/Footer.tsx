@@ -76,15 +76,6 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-
-            {/* Static Map Image */}
-            <div className="w-full max-w-[250px] h-[250px] overflow-hidden rounded-lg">
-              <img
-                src="/lovable-uploads/d92692da-a868-46e1-8de9-bf74f7429c81.png"
-                alt="School Location Map"
-                className="w-full h-full object-cover"
-              />
-            </div>
           </div>
         </div>
       </div>
