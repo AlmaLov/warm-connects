@@ -97,19 +97,29 @@ const upcomingEvents: Event[] = [
 const recentEvents: Event[] = [
   {
     date: "Jun '23",
+    day: "15",
+    month: "JUN",
     title: "John's Farewell",
+    location: "Main Campus",
+    organizer: "Event Team",
+    email: "events@example.com",
     imageUrl: "/farewell.jpg",
   },
   {
     date: "May '23",
+    day: "20",
+    month: "MAY",
     title: "March Product Release",
+    location: "Virtual",
+    organizer: "Product Team",
+    email: "products@example.com",
     imageUrl: "/release.jpg",
   },
 ];
 
 const EventsAndAnnouncements = () => {
   return (
-    <section className="w-full bg-gradient-to-br from-peach to-cream py-16">
+    <section className="w-full bg-gradient-to-r from-[#FCCC68] to-[#F07053] py-16">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Announcements Section */}
