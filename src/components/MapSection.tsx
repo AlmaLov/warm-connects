@@ -16,24 +16,24 @@ const MapSection = () => {
 
   return (
     <section className="relative w-full min-h-screen overflow-hidden">
-      {/* Background Map */}
+      {/* Background Map with fixed height and no max-height */}
       <div 
-        className="absolute inset-0"
+        className="absolute inset-0 z-0"
         style={{ 
           backgroundImage: `url('/lovable-uploads/18471359-e2d2-459b-b77b-59450aff20ac.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          width: '100%',
-          height: '100vh'
+          height: '100vh',
+          width: '100%'
         }}
       />
 
-      {/* Overlay gradient */}
+      {/* Overlay gradient with reduced opacity */}
       <div 
-        className="absolute inset-0"
+        className="absolute inset-0 z-1"
         style={{
-          background: 'linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%)'
+          background: 'linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%)'
         }}
       />
 
