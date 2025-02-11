@@ -20,7 +20,7 @@ const MapSection = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{ 
-          backgroundImage: `url('/lovable-uploads/18471359-e2d2-459b-b77b-59450aff20ac.png')`,
+          backgroundImage: `url('/lovable-uploads/e5501bcb-f56d-4096-8996-6dd2dba0b6e6.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
